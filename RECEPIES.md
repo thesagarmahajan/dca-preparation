@@ -7,6 +7,7 @@ Inbound rules:
     
 Step-2: Create EC2 instances withgiven shell script
 ```bash
+#!/bin/bash
 yum update -y
 yum install -y docker
 systemctl start docker
