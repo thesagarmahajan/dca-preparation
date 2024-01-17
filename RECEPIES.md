@@ -13,3 +13,8 @@ yum install -y docker
 systemctl start docker
 chkconfig docker on
 ```
+
+Step-3: Associate Elastic IPs with the EC2 instances
+Follow these steps:
+  - Allocate elastic IP
+  - Select the Elastic IP > Click Actions > Associate IP > Select the instance
